@@ -1,4 +1,5 @@
 # GCG Attacks Initialization
+
 ## Installation
 In a python 3.9.19 environment, run the following command at the root of this repository:
 ```bash
@@ -34,6 +35,8 @@ Note that the models (if not already downloaded) will be downloaded automaticall
 ```bash
 huggingface-cli login
 ```
+
+Currently, this repository supports only `meta-llama/Llama-2-7b-chat-hf` and `lmsys/vicuna-7b-v1.3`. Additional models will be supported soon!
 
 #### Attack Initialization Details
 ##### IPA and UPA Attacks
