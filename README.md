@@ -54,9 +54,9 @@ bash individual.sh UPA meta-llama/Llama-2-7b-chat-hf meta-llama/Llama-2-7b-chat-
 
 The init file will be saved in the `experiments/results/init` folder as `UPA_init_Llama-2-7b-chat-hf_start0_end25_controlSize20.json`. The attack results will be saved in the `experiments/results/individual/UPA` folder as `Llama-2-7b-chat-hf_to_Llama-2-7b-chat-hf_trn_0_25_tst_25_125_controlSize20.json`.
 
-## Viewing Results
+<!-- ## Viewing Results
 To view all results, run the notebook `experiments/final_parse_results.ipynb`. This notebook will display the results of all experiments in the `experiments/results` directory.
-
+ -->
 
 
 
