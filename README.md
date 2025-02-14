@@ -8,7 +8,7 @@ pip install -e .
 
 ## Demo
 In the `demo` directory, there is a short demo for our experiments in the paper in `paper_demo.ipynb`. This demo uses the nanoGCG library, for easier implementation.
-
+ 
 
 ## Experiments
 
