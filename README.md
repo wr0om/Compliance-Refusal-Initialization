@@ -6,6 +6,27 @@ In a python 3.9.19 environment, run the following command at the root of this re
 ```bash
 pip install -e .
 ```
+To ensure clarity and professionalism in your README section about citing the paper, here's a revised version:
+
+---
+
+## Acknowledgment
+This repository contains the official code for the paper titled "Enhancing Jailbreak Attacks via Compliance-Refusal-Based Initialization." 
+If you use this code in your research, please cite our paper as follows to ensure proper acknowledgment:
+
+```
+@misc{levi2025enhancingjailbreakattackscompliancerefusalbased,
+      title={Enhancing Jailbreak Attacks via Compliance-Refusal-Based Initialization}, 
+      author={Amit Levi and Rom Himelstein and Yaniv Nemcovsky and Avi Mendelson and Chaim Baskin},
+      year={2025},
+      eprint={2502.09755},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2502.09755}
+}
+```
+We appreciate your support and acknowledgment of our work in your research endeavors.
+
 
 ## Demo
 In the `demo` directory, there is a short demo for our experiments in the paper in `paper_demo.ipynb`. This demo uses the nanoGCG library, for easier implementation.
@@ -68,6 +89,8 @@ To view all results, run the notebook `experiments/final_parse_results.ipynb`. T
 
 ## Visualizations
 In the `experiments` folder, under `visualizations.ipynb`, there are visualizations of the impact of our initializations, when compared to the standard one.
+
+
 
 
 
