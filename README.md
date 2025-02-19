@@ -2,15 +2,8 @@
 ## Webpage: https://amit1221levi.github.io/CRI-Jailbreak-Init-LLMs-evaluation/
 ## Paper: https://arxiv.org/abs/2502.09755
 ## Installation
-In a python 3.9.19 environment, run the following command at the root of this repository:
-```bash
-pip install -e .
-```
-To ensure clarity and professionalism in your README section about citing the paper, here's a revised version:
 
----
-
-## Acknowledgment
+#### Acknowledgment
 This repository contains the official code for the paper titled "Enhancing Jailbreak Attacks via Compliance-Refusal-Based Initialization." 
 If you use this code in your research, please cite our paper as follows to ensure proper acknowledgment:
 
