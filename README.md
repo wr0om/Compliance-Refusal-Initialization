@@ -19,8 +19,8 @@ In the `experiments/launch_scripts` directory, we provide scripts to run experim
 You can choose from the following attack initialization types:
 - GCG (Greedy Coordinate Gradient) - in the paper this is termed Standard
 - Random
-- IPA (Individual Prompt Attack) - in the paper this is termed CRI
-- UPA (Universal Prompt Attack) - in the paper this is termed U-CRI
+- IPA (Individual Prompt Attack) - in the paper this is termed 25-CRI
+- UPA (Universal Prompt Attack) - in the paper this is termed 1-CRI
 
 ### Running Experiments
 
