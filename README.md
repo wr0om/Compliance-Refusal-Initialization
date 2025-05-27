@@ -34,8 +34,8 @@ In the `experiments/launch_scripts` directory, we provide scripts to run experim
 You can choose from the following attack initialization types:
 - GCG (Greedy Coordinate Gradient) - in the paper this is termed Standard
 - Random
-- IPA (Individual Prompt Attack) - in the paper this is termed CRI
-- UPA (Universal Prompt Attack) - in the paper this is termed U-CRI
+- IPA (Individual Prompt Attack) - in the paper this is termed 25-CRI
+- UPA (Universal Prompt Attack) - in the paper this is termed 1-CRI
 
 ### Running Experiments
 
@@ -58,7 +58,7 @@ huggingface-cli login
 Currently, this repository supports only `meta-llama/Llama-2-7b-chat-hf` and `lmsys/vicuna-7b-v1.3`. Additional models will be supported soon!
 
 #### Attack Initialization Details
-##### IPA and UPA Attacks
+##### 25-CRI (IPA) and 1-CRI (UPA) Attacks
 
 The script will create the initialization of the attack (if it does not already exist) on the specified train model and train data. The attack will continue using the computed initialization on the specified test model and test data.
 
